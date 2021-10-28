@@ -55,7 +55,8 @@ The first major block of the Phase1_Project_Notebook contain the cleaning of the
 
 After some further cleaning to get distinct genres, the notebook then proceeds to calculate the mean ROI by genre, resulting in this graph:
 
-*******
+![README md graph](https://user-images.githubusercontent.com/81991136/139350135-0d5755b3-294f-48fd-bc84-cb51964ad818.png)
+
 
 *******
 
