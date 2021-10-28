@@ -55,8 +55,7 @@ The first major block of the Phase1_Project_Notebook contain the cleaning of the
 
 After some further cleaning to get distinct genres, the notebook then proceeds to calculate the mean ROI by genre, resulting in this graph:
 
-![README md graph](https://user-images.githubusercontent.com/81991136/139350135-0d5755b3-294f-48fd-bc84-cb51964ad818.png)
-
+*******
 
 *******
 
@@ -80,7 +79,7 @@ What we're looking at here is how well a track record of big successes can *ensu
 Ultimately, many of the names on our list of repeatably good film makers also end up on our list of notable repeat failures. However, it seems that repeatably successful directors tend to much more rarely also put out flops. 'Good' actors, meanwhile, can't always seem to save underperforming films.
 
 *******
-
+![README md graph](https://user-images.githubusercontent.com/81991136/139350135-0d5755b3-294f-48fd-bc84-cb51964ad818.png)
 *******
 
 In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
