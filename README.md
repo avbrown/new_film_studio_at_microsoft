@@ -26,17 +26,17 @@ All that said, a fair amount of ROI is driven by outliers. Even with the genre, 
 ## Analyzing the Data
 We used the following datasets:
 
-bom.movie_gross.csv.gz 
-imdb.name.basics.csv.gz
-imdb.title.akas.csv.gz 
-imdb.title.basics.csv.gz
-imdb.title.crew.csv.gz
-imdb.title.principals.csv.gz
-imdb.title.ratings.csv.gz
-rt.movie_info.tsv.gz
-rt.reviews.tsv.gz
-tmdb.movies.csv.gz
-tn.movie_budgets.csv.gz`
+bom.movie_gross.csv.gz \
+imdb.name.basics.csv.gz \
+imdb.title.akas.csv.gz \
+imdb.title.basics.csv.gz  \
+imdb.title.crew.csv.gz  \
+imdb.title.principals.csv.gz  \
+imdb.title.ratings.csv.gz  \
+rt.movie_info.tsv.gz \
+rt.reviews.tsv.gz  \
+tmdb.movies.csv.gz  \
+tn.movie_budgets.csv.gz 
  
 These sets were provided by the course as our starting points in exploration.  They contain information about how much movies made domestically and worldwide, Genres, runtime of the movies, release time, and crews of the movies. However none of these datasets alone had all the data we needed.
  
@@ -56,11 +56,10 @@ The first major block of the Phase1_Project_Notebook contain the cleaning of the
 
 After some further cleaning to get distinct genres, the notebook then proceeds to calculate the mean ROI by genre, resulting in this graph:
 
-*******
+*****
+*****
 
-
-
-![Months and Genres for notebook](https://user-images.githubusercontent.com/81991136/139365193-8a54b0bf-bbc3-4862-a998-563a40ab76b2.png)
+### Horror, Mystery, and Thriller films have a higher ROI.
 
 
 The next section of code deals with the relative success and failure of directors and actors.
@@ -80,13 +79,14 @@ Ultimately, many of the names on our list of repeatably good film makers also en
 ![README md graph](https://user-images.githubusercontent.com/81991136/139350135-0d5755b3-294f-48fd-bc84-cb51964ad818.png)
 *******
 
-In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
+###In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
 
 
 
 
 
 
+![Months and Genres for notebook](https://user-images.githubusercontent.com/81991136/139365193-8a54b0bf-bbc3-4862-a998-563a40ab76b2.png)
 
 
 
