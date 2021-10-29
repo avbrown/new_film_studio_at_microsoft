@@ -4,10 +4,10 @@ This repository uses exploratory data analysis to provide a business stakeholder
  
 # Bottom Line Up Front
 There are some general best practices for making ROI in movies.
-1. The genres to invest in are...
-2. Trust directors over actors
+1. The genres to invest in are horror, mystery, and thriller.
+2. Trust directors over actors.
 3. A good runtime is...
-4. The best months to release are dependent on genre
+4. The best months to release are dependent on genre.
  
  
 ## Business Understanding
@@ -20,7 +20,7 @@ Given the datasets on hand, it is assumed that production budgets and worldwide 
 
 Ultimately we chose to focus on topline descisions that could be made by executives in the board room the selection of genre, talent, release date and final run time
 
-All that said, a fair amount of ROI is driven by outliers. Even with the genre, talent, release date and final run time.[^1]
+All that said, a fair amount of ROI is driven by outliers. Even with the 'correct' genre, talent, release date and final run time, some movies will flop.[^1]
   
 
 ## Analyzing the Data
@@ -101,7 +101,7 @@ README.md includes concise summary of project with all data science steps
 README.md links to presentation and sources
 README.md includes instructions for navigating the repository
 
-[^1]: As an example Warner Brothers chased the Marvel model - long films about superheroes with a marketable cast and moneymaking directors -  and still stumbled. Given the unpredictable nature of the industry we recommend a strategy of broad diversification within our best practices, rather than betting large on a very specific combination.
+[^1]: As an example, Warner Brothers chased the Marvel model - long films about superheroes with a marketable cast and moneymaking directors -  and still stumbled. Given the unpredictable nature of the industry we recommend a strategy of broad diversification within our best practices, rather than betting large on a very specific combination.
 
 [^2]: For instance, one outlier in the dataset, a film called "Deep Throat" is alleged to have an inflated box office return. A 2005 LA Times article (https://www.latimes.com/archives/la-xpm-2005-feb-24-fi-golden24-story.html) raises numerous issues with the box office claims, including allegations of mob involvement in adjusting box office numbers.
 
