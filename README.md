@@ -1,9 +1,9 @@
 # New-Film-Studio-at-Microsoft
-This repository uses exploratory data analysis to provide a business stakeholder with recommendations about what types of films are currently doing the best/worst at the box office.
+This repository uses exploratory data analysis to provide a business stakeholder with recommendations about what types/characteristics of films are currently doing the best at the box office.
  
  
 # Bottom Line Up Front
-There are some general best practices for making ROI in movies.
+These are our recommendations based on ROI of films:
 1. The genres to invest in are horror, mystery, and thriller.
 2. Trust directors over actors.
 3. A long runtime is okay.
@@ -12,15 +12,15 @@ There are some general best practices for making ROI in movies.
  
 ## Business Understanding
  
-Our assumption here is that our stakeholders are executives at Microsoft. The problem they face is how to most efficiently invest Microsoft's resources into movie making ventures. Our recommendations are made on the assumption that a movie studio WILL be set up, and do not address other avenues of investment. We assume that the stakeholders derive their compensation based directly or indirectly on the value of the company, which in turn is based directly or indirectly on profits and losses.
+Our assumption here is that our stakeholders are executives at Microsoft. The problem they face is how to most efficiently invest Microsoft's resources into film production. Our recommendations are made on the assumption that a film studio WILL be set up, and do not address other avenues of investment. We assume that the stakeholders derive their compensation based directly or indirectly on the value of the company, which in turn is based directly or indirectly on profits and losses.
  
-Therefore, we are choosing to base our recommendations primarily using Return on Investment as the desired outcome metric. Factors like prestige, awards, and ratings were considered only insofar as they affected ROI.
+Therefore, we are choosing to base our recommendations primarily using ROI as the desired outcome metric. Factors like prestige, awards, and ratings were considered only insofar as they affected ROI.
 
-Given the datasets on hand, it is assumed that production budgets and worldwide gross represent the overall investment and return, respectively
+Given the datasets on hand, it is assumed that production budgets and worldwide gross represent the overall investment and return, respectively.
 
-Ultimately we chose to focus on topline decisions that could be made by executives in the board room: the selection of genre, talent, release date and final run time
+Ultimately we chose to focus on topline decisions that could be made by executives in the board room: the selection of genre, talent, release date and final run time.
 
-All that said, a fair amount of ROI is driven by outliers. Even with the 'correct' genre, talent, release date and final run time, some movies will flop.[^1]
+All that said, a fair amount of ROI is driven by outliers. Even with the 'correct' genre, talent, release date, and final run time, some films will flop.[^1]
   
 
 ## Analyzing the Data
@@ -38,7 +38,7 @@ rt.reviews.tsv.gz  \
 tmdb.movies.csv.gz  \
 tn.movie_budgets.csv.gz 
  
-These sets were provided by the course as our starting points in exploration.  They contain information about how much movies made domestically and worldwide, Genres, runtime of the movies, release time, and crews of the movies. However none of these datasets alone had all the data we needed.
+These sets were provided by the course as our starting points in exploration.  They contain information about how much films made domestically and worldwide, Genres, runtime of the movies, release time, and crews of the movies. However none of these datasets alone had all the data we needed.
  
 This information is incomplete in some ways. Some data points were present in one data set, but not others, leading to lost information during merges.
  
