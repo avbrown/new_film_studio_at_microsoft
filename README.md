@@ -6,7 +6,7 @@ This repository uses exploratory data analysis to provide a business stakeholder
 There are some general best practices for making ROI in movies.
 1. The genres to invest in are horror, mystery, and thriller.
 2. Trust directors over actors.
-3. A good runtime is...
+3. A long runtime is okay.
 4. The best months to release are dependent on genre.
  
  
