@@ -81,6 +81,14 @@ Ultimately, many of the names on our list of repeatably good film makers also en
 
 ### In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
 
+
+Finally we looked at runtime. As before, we had to drop duplicate data. Then we visilized this data and found a strong mode runtime at 90 minutes, a traditional rule of thumb running time, in the days before more elaborate data collection.  However, we found that modern movies have longer runtimes, and that movies with longer runtimes still have an ROI over 1.
+Measuring the three central tendencies, there's a contiunous increase over time in runtime lengths. 
+
+
+![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
+
+### Accept the trent toward runtimes of longer than 90 minutes
 The next section of our code explores the seasonal variation in ROI. Seasonality has long been a part of the Hollywood box office schedule, from summer blockbusters, Halloween horrors, and awards season drama. We broke down our data bases by month to explore this phenomenon.
 
 To a certain extent, this confirms our priors. July and May provide overall good returns, December and January less so.  However, there are two things to note. 
@@ -95,23 +103,11 @@ This confirms some priors, but reveals some exciting new options. January might 
 
 ### We recommend tailoring release dates and genres according to the data here.
 
-Finally we looked at runtime. As before, we had to drop duplicate data. Then we visilized this data and found a strong mode runtime at 90 minutes, a traditional rule of thumb running time, in the days before more elaborate data collection.  However, we found that modern movies have longer runtimes, and that movies with longer runtimes still have an ROI over 1.
-Measuring the three central tendencies, there's a contiunous increase over time in runtime lengths. 
-
-
-![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
-
-### Accept the trent toward runtimes of longer than 90 minutes
 
 
 
 
 
-
-### We recommend tailoring release dates and genres according to the data here.
-
-Finally we looked at runtime. As before, we had to drop duplicate data. Then we visilized this data and found a strong mode runtime at 90 minutes, a traditional rule of thumb running time, in the days before more elaborate data collection.  However, we found that modern movies have longer runtimes, and that movies with longer runtimes still have an ROI over 1.
-Measuring the three central tendencies, there's a contiunous increase over time in runtime lengths. 
 
 
 ![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
