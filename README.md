@@ -7,7 +7,7 @@ There are some general best practices for making ROI in movies.
 1. The genres to invest in are...
 2. Trust directors over actors
 3. A good runtime is...
-4. The best months to release are
+4. The best months to release are dependent on genre
  
  
 ## Business Understanding
