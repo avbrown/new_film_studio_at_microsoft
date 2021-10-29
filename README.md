@@ -25,9 +25,10 @@ All that said, a fair amount of ROI is driven by outliers. Even with the genre, 
 
 ## Analyzing the Data
 We used the following datasets:
-bom.movie_gross.csv.gz
+
+bom.movie_gross.csv.gz 
 imdb.name.basics.csv.gz
-imdb.title.akas.csv.gz
+imdb.title.akas.csv.gz 
 imdb.title.basics.csv.gz
 imdb.title.crew.csv.gz
 imdb.title.principals.csv.gz
@@ -35,7 +36,7 @@ imdb.title.ratings.csv.gz
 rt.movie_info.tsv.gz
 rt.reviews.tsv.gz
 tmdb.movies.csv.gz
-tn.movie_budgets.csv.gz
+tn.movie_budgets.csv.gz`
  
 These sets were provided by the course as our starting points in exploration.  They contain information about how much movies made domestically and worldwide, Genres, runtime of the movies, release time, and crews of the movies. However none of these datasets alone had all the data we needed.
  
@@ -51,16 +52,13 @@ Early data exploration was conducted in ancillary notebooks, most named after th
 
 ## Navigating Phase1_Project_Notebook
 
-The first major block of the Phase1_Project_Notebook contain the cleaning of the and the creation of the money_metrics_merge_ready_df, a data frame that contains needed ROI calculations and is also ready to merge onto other data frames. Considerable care was made to adjust movie names to make them unique.[^bignote]  This process was partially automated, with some cleaning by hand when duplicates fell to managable numbers. Other data frames had unique values built in, which made later merges easier.
+The first major block of the Phase1_Project_Notebook contain the cleaning of the and the creation of the money_metrics_merge_ready_df, a data frame that contains needed ROI calculations and is also ready to merge onto other data frames. Considerable care was made to adjust movie names to make them unique.[^3]  This process was partially automated, with some cleaning by hand when duplicates fell to managable numbers. Other data frames had unique values built in, which made later merges easier.
 
 After some further cleaning to get distinct genres, the notebook then proceeds to calculate the mean ROI by genre, resulting in this graph:
 
 *******
 
-*******
 
-And when broken out by high budget films.
-*******
 
 *******
 
@@ -96,14 +94,12 @@ README.md includes concise summary of project with all data science steps
 README.md links to presentation and sources
 README.md includes instructions for navigating the repository
 
-[^1]For instance, Warner Brothers chased the Marvel model - long films about superheroes with a marketable cast and moneymaking directors -  and still stumbled. Given the unpredictable nature of the industry we recommend a strategy of broad diversification within our best practices, rather than betting large on a very specific combination.
+[^1]: As an example Warner Brothers chased the Marvel model - long films about superheroes with a marketable cast and moneymaking directors -  and still stumbled. Given the unpredictable nature of the industry we recommend a strategy of broad diversification within our best practices, rather than betting large on a very specific combination.
+
+[^2]: For instance, one outlier in the dataset, a film called "Deep Throat" is alleged to have an inflated box office return. A 2005 LA Times article (https://www.latimes.com/archives/la-xpm-2005-feb-24-fi-golden24-story.html) raises numerous issues with the box office claims, including allegations of mob involvement in adjusting box office numbers.
 
 
-[^2]For instance, one outlier in the dataset, a film called "Deep Throat" is alleged to have an inflated box office return. A 2005 LA Times article (https://www.latimes.com/archives/la-xpm-2005-feb-24-fi-golden24-story.html) raises numerous issues with the box office claims.
-
-
-
-[^bignote]: To illustrate this issue, here's a list of films called 'Home' pulled from Wikipedia:
+[^3]: To illustrate this issue, here's a list of films called 'Home' pulled from Wikipedia:
 
 Films
 
