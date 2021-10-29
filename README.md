@@ -48,18 +48,21 @@ It is also reasonable to suspect that these data sets may be skewed towards West
 
 ## The Notebooks 
 
-Early data exploration was conducted in ancillary notebooks, most named after the cohort member doing the exploration, others name after specific tasks or threads being explored. Important information and final findings from those explorations has been pulled from those early notebooks into the __*Phase1_Project_Notebook.*__
+Early data exploration was conducted in ancillary notebooks, most named after the cohort member doing the exploration, others name after specific tasks or threads being explored. Important information and final findings from those explorations has been pulled from those early notebooks into the __*Phase1_Project_Notebook.*__ The more exploratory notebooks have been moved to the subfolder titled exploratory_files.
 
-# Navigating Phase1_Project_Notebook
+# Phase1_Project_Notebook
 
 The first major block of the Phase1_Project_Notebook contain the cleaning of the and the creation of the money_metrics_merge_ready_df, a data frame that contains needed ROI calculations and is also ready to merge onto other data frames. Considerable care was made to adjust movie names to make them unique.[^3]  This process was partially automated, with some cleaning by hand when duplicates fell to managable numbers. Other data frames had unique values built in, which made later merges easier.
 
-After some further cleaning to get distinct genres, the notebook then proceeds to calculate the mean ROI by genre, resulting in this graph:
+
+After some further cleaning to get distinct genres, we caluculated  the mean ROI by genre, resulting in this graph:
 
 *****
 *****
 
-### Horror, Mystery, and Thriller films have a higher ROI.
+Despite a seeming saturation of the market in different genres, Thrillers, Horror, and Mystery films are all top three in returns. 
+
+### Horror, Mystery, and Thriller films have a high ROI.
 
 
 The next section of code deals with the relative success and failure of directors and actors.
@@ -97,7 +100,10 @@ This confirms some priors, but reveals some exciting new options. January might 
 
 
 
-README.md includes concise summary of project with all data science steps
+
+
+
+
 README.md links to presentation and sources
 README.md includes instructions for navigating the repository
 
