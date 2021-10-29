@@ -18,7 +18,7 @@ Therefore, we are choosing to base our recommendations primarily using Return on
 
 Given the datasets on hand, it is assumed that production budgets and worldwide gross represent the overall investment and return, respectively
 
-Ultimately we chose to focus on topline descisions that could be made by executives in the board room the selection of genre, talent, release date and final run time
+Ultimately we chose to focus on topline decisions that could be made by executives in the board room: the selection of genre, talent, release date and final run time
 
 All that said, a fair amount of ROI is driven by outliers. Even with the 'correct' genre, talent, release date and final run time, some movies will flop.[^1]
   
