@@ -89,7 +89,7 @@ First, this data is noisy. Year to year there is no guarentee of good returns in
 
 Second, it would be naive to simply combine the data from above regarding genre with the findings above, and produced a horror film in July. Conventional wisdom holds that October is a better time for Horror. We cluster the monthly data by our top three genre, resulting in the following graph: 
 
-![Months and Genres for notebook](https://github.com/avbrown/New-Film-Studio-at-Microsoft/issues/48#issue-1039743927)
+![Months and Genres for notebook](https://user-images.githubusercontent.com/85522002/139470777-b359ad2e-4a9e-4f08-a41d-f3dea21a26ac.png)
 
 This confirms some priors, but reveals some exciting new options. January might be a good month for horror, for instance, and a horror film in July doesn't seem bad at all! Note that our genre dataset covers multiple options, so these films might be hybrid horror-action or horror-sci-fi.
 
