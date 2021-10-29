@@ -110,9 +110,6 @@ This confirms some priors, but reveals some exciting new options. January might 
 
 
 
-![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
-
-
 ### Presentation available as [PDF](https://github.com/avbrown/New-Film-Studio-at-Microsoft/blob/main/presentation.pdf)
 
 
