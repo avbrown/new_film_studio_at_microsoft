@@ -79,14 +79,21 @@ Ultimately, many of the names on our list of repeatably good film makers also en
 ![README md graph](https://user-images.githubusercontent.com/81991136/139350135-0d5755b3-294f-48fd-bc84-cb51964ad818.png)
 *******
 
-###In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
+### In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
 
+The next section of our code explores the seasonal variation in ROI. Seasonality has long been a part of the Hollywood box office schedule, from summer blockbusters, Halloween horrors, and awards season drama. We broke down our data bases by month to explore this phenomenon.
 
+To a certain extent, this confirms our priors. July and May provide overall good returns, December and January less so.  However, there are two things to note. 
 
+First, this data is noisy. Year to year there is no guarentee of good returns in a given month, and these averages are shaped in part by significant outliers.
 
-
+Second, it would be naive to simply combine the data from above regarding genre with the findings above, and produced a horror film in June. Conventional wisdom holds that October is a better time for Horror. We cluster the monthly data by our top three genre, resulting in the following graph: 
 
 ![Months and Genres for notebook](https://user-images.githubusercontent.com/81991136/139365193-8a54b0bf-bbc3-4862-a998-563a40ab76b2.png)
+
+This confirms some priors, but reveals some exciting new options. January might be a good month for horror, for instance.
+
+### We recommend tailoring release dates and genres according to the data here.
 
 
 
