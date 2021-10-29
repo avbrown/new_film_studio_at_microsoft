@@ -101,7 +101,7 @@ Measuring the three central tendencies, there's a contiunous increase over time 
 
 ![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
 
-### Movies with runtimes of longer than 90 minute
+### Accept the trent toward runtimes of longer than 90 minutes
 
 
 
