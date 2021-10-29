@@ -50,15 +50,14 @@ It is also reasonable to suspect that these data sets may be skewed towards West
 
 Early data exploration was conducted in ancillary notebooks, most named after the cohort member doing the exploration, others name after specific tasks or threads being explored. Important information and final findings from those explorations has been pulled from those early notebooks into the __*Phase1_Project_Notebook.*__ The more exploratory notebooks have been moved to the subfolder titled exploratory_files.
 
-# Phase1_Project_Notebook
+# Phase1_Project_Notebook 
 
 The first major block of the Phase1_Project_Notebook contain the cleaning of the and the creation of the money_metrics_merge_ready_df, a data frame that contains needed ROI calculations and is also ready to merge onto other data frames. Considerable care was made to adjust movie names to make them unique.[^3]  This process was partially automated, with some cleaning by hand when duplicates fell to managable numbers. Other data frames had unique values built in, which made later merges easier.
 
 
 After some further cleaning to get distinct genres, we caluculated  the mean ROI by genre, resulting in this graph:
 
-*****
-*****
+![Capture of vu's image](https://user-images.githubusercontent.com/85522002/139455988-a41bcadd-8213-4892-92d8-b34c5b661289.PNG)
 
 Despite a seeming saturation of the market in different genres, Thrillers, Horror, and Mystery films are all top three in returns. 
 
@@ -78,9 +77,7 @@ What we're looking at here is how well a track record of big successes can *ensu
 
 Ultimately, many of the names on our list of repeatably good film makers also end up on our list of notable repeat failures. However, it seems that repeatably successful directors tend to much more rarely also put out flops. 'Good' actors, meanwhile, can't always seem to save underperforming films.
 
-*******
 ![README md graph](https://user-images.githubusercontent.com/81991136/139350135-0d5755b3-294f-48fd-bc84-cb51964ad818.png)
-*******
 
 ### In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
 
@@ -100,12 +97,13 @@ This confirms some priors, but reveals some exciting new options. January might 
 
 
 
+![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
+
+
+### Presentation available as PDF at 
 
 
 
-
-README.md links to presentation and sources
-README.md includes instructions for navigating the repository
 
 [^1]: As an example, Warner Brothers chased the Marvel model - long films about superheroes with a marketable cast and moneymaking directors -  and still stumbled. Given the unpredictable nature of the industry we recommend a strategy of broad diversification within our best practices, rather than betting large on a very specific combination.
 
