@@ -57,7 +57,7 @@ The first major block of the Phase1_Project_Notebook contain the cleaning of the
 
 After some further cleaning to get distinct genres, we caluculated  the mean ROI by genre, resulting in this graph:
 
-![Capture of vu's image](https://user-images.githubusercontent.com/85522002/139455988-a41bcadd-8213-4892-92d8-b34c5b661289.PNG)
+![vurecolored](https://user-images.githubusercontent.com/81991136/139494652-7db73a75-bbe4-4241-8ffd-565230d7008a.png)
 
 Despite a seeming saturation of the market in different genres, Thrillers, Horror, and Mystery films are all top three in returns. 
 
