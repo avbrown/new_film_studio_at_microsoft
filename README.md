@@ -60,7 +60,7 @@ After some further cleaning to get distinct genres, the notebook then proceeds t
 
 
 
-*******
+![Months and Genres for notebook](https://user-images.githubusercontent.com/81991136/139365193-8a54b0bf-bbc3-4862-a998-563a40ab76b2.png)
 
 
 The next section of code deals with the relative success and failure of directors and actors.
