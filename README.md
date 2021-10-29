@@ -81,12 +81,28 @@ Ultimately, many of the names on our list of repeatably good film makers also en
 
 ### In effect, if you must chose between a proven director or a proven actor, the director will more reliably avoid failure.
 
+### Runtime
 
-Finally we looked at runtime. As before, we had to drop duplicate data. Then we visilized this data and found a strong mode runtime at 90 minutes, a traditional rule of thumb running time, in the days before more elaborate data collection.  However, we found that modern movies have longer runtimes, and that movies with longer runtimes still have an ROI over 1.
 Measuring the three central tendencies, there's a contiunous increase over time in runtime lengths. 
+The next section of code deals with the values of how long movies run when shown in film over the years. 
+Since the datasets focus on different time spans throughtest history of cinema it is okay to look at them individually and allow their findings to support one another.
+Now we examined and went to find what was the most common movie length that occured thorughout history. 
+Using the IMDB dataset the findings where values that fell within that past 10 years we found that 90 minutes was the most frequent runtime to occur in the last 10 years. 
+In essence we are seeing that feature length standard that was implemented back in 1920 is still used to this day.
+After more analysis the push of the avergae year using the 90 minute runtime length has been leaning more towards the earlier part of the decade rather than being in the middle.
+The longer runtimes being skewed towards the latter part of the decade.
+
+Breaking into the rotten tomatoes dataset you see the range of the dataset starts back to the 1920's and comes to modern times.
+We examined the data and saw the 90 minute mark is still the most common runtime through history. But further analysis see's that
+in the mid 1980's and prior having more occurances of the 90 minute mark coming up.
+As you look more and more into the data you see that modern movie times values of central tendecy to be 
+greater than 90 minutes, the standard feature time. Ultimatley we are wanting to show that there is a trend
+of longer movie runtimes and that a new studio does not have to be restricted to a standard set back in the 1920's and it is safe
+to have longer films. Modern films with longer than standard feature movie lengths are still having ROI's greater than 1. 
+![Rogerfixedlinegraph](https://user-images.githubusercontent.com/92402366/139494101-1086b723-eaf1-4c6b-8d0c-3dd641ce138d.png)
 
 
-![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
+
 
 ### Accept the trent toward runtimes of longer than 90 minutes
 The next section of our code explores the seasonal variation in ROI. Seasonality has long been a part of the Hollywood box office schedule, from summer blockbusters, Halloween horrors, and awards season drama. We broke down our data bases by month to explore this phenomenon.
