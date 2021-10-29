@@ -52,7 +52,7 @@ Early data exploration was conducted in ancillary notebooks, most named after th
 
 # Phase1_Project_Notebook 
 
-The first major block of the Phase1_Project_Notebook contain the cleaning of the and the creation of the money_metrics_merge_ready_df, a data frame that contains needed ROI calculations and is also ready to merge onto other data frames. Considerable care was made to adjust movie names to make them unique.[^3]  This process was partially automated, with some cleaning by hand when duplicates fell to managable numbers. Other data frames had unique values built in, which made later merges easier.
+The first major block of the Phase1_Project_Notebook contain the cleaning of the and the creation of the money_metrics_merge_ready_df, a data frame that contains needed ROI calculations and is also ready to merge onto other data frames. Considerable care was made to adjust movie names to make them unique.[^bignote]  This process was partially automated, with some cleaning by hand when duplicates fell to managable numbers. Other data frames had unique values built in, which made later merges easier.
 
 
 After some further cleaning to get distinct genres, we caluculated  the mean ROI by genre, resulting in this graph:
@@ -87,24 +87,31 @@ To a certain extent, this confirms our priors. July and May provide overall good
 
 First, this data is noisy. Year to year there is no guarentee of good returns in a given month, and these averages are shaped in part by significant outliers.
 
-Second, it would be naive to simply combine the data from above regarding genre with the findings above, and produced a horror film in June. Conventional wisdom holds that October is a better time for Horror. We cluster the monthly data by our top three genre, resulting in the following graph: 
+Second, it would be naive to simply combine the data from above regarding genre with the findings above, and produced a horror film in July. Conventional wisdom holds that October is a better time for Horror. We cluster the monthly data by our top three genre, resulting in the following graph: 
 
-![Months and Genres for notebook](https://user-images.githubusercontent.com/81991136/139365193-8a54b0bf-bbc3-4862-a998-563a40ab76b2.png)
+![Months and Genres for notebook](https://github.com/avbrown/New-Film-Studio-at-Microsoft/issues/48#issue-1039743927)
 
-This confirms some priors, but reveals some exciting new options. January might be a good month for horror, for instance.
+This confirms some priors, but reveals some exciting new options. January might be a good month for horror, for instance, and a horror film in July doesn't seem bad at all! Note that our genre dataset covers multiple options, so these films might be hybrid horror-action or horror-sci-fi.
 
 ### We recommend tailoring release dates and genres according to the data here.
 
-Finally we looked at  
+Finally we looked at runtime. As before, we had to drop duplicate data. Then we visilized this data and found a strong mode runtime at 90 minutes, a traditional rule of thumb running time, in the days before more elaborate data collection.  However, we found that modern movies have longer runtimes, and that movies with longer runtimes still have an ROI over 1.
+Measuring the three central tendencies, there's a contiunous increase over time in runtime lengths. 
 
 
 ![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
 
+### Movies with runtimes of longer than 90 minute
 
 
 
 
-### Presentation available as PDF[a relative link]
+
+
+
+
+
+### Presentation available as [PDF](https://github.com/avbrown/New-Film-Studio-at-Microsoft/blob/main/presentation.pdf)
 
 
 
@@ -115,10 +122,8 @@ Finally we looked at
 [^2]: For instance, one outlier in the dataset, a film called "Deep Throat" is alleged to have an inflated box office return. A 2005 LA Times article (https://www.latimes.com/archives/la-xpm-2005-feb-24-fi-golden24-story.html) raises numerous issues with the box office claims, including allegations of mob involvement in adjusting box office numbers.
 
 
-[^3]: To illustrate this issue, here's a list of films called 'Home' pulled from Wikipedia:
-
+[^bignote]: To illustrate this issue, here's a list of films called 'Home' pulled from Wikipedia:
 Films
-
     Home (1915 film), a 1915 silent film featuring A.V. Bramble
     Home, a 1919 American film directed by Lois Weber
     Home, a 1998 short film starring Alan Devine
