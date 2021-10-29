@@ -108,7 +108,13 @@ Measuring the three central tendencies, there's a contiunous increase over time 
 
 
 
+### We recommend tailoring release dates and genres according to the data here.
 
+Finally we looked at runtime. As before, we had to drop duplicate data. Then we visilized this data and found a strong mode runtime at 90 minutes, a traditional rule of thumb running time, in the days before more elaborate data collection.  However, we found that modern movies have longer runtimes, and that movies with longer runtimes still have an ROI over 1.
+Measuring the three central tendencies, there's a contiunous increase over time in runtime lengths. 
+
+
+![image](https://user-images.githubusercontent.com/85522002/139456986-99b32a76-c5cf-4d7e-8c49-2f67a8771ec1.png)
 
 
 ### Presentation available as [PDF](https://github.com/avbrown/New-Film-Studio-at-Microsoft/blob/main/presentation.pdf)
